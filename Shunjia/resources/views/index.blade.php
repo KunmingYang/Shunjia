@@ -8,30 +8,30 @@
 <body>
     <div class="container mx-auto px-32 pb-32">
 
-        <div id="intro-gallery" class="relative w-full" data-carousel="slide">
+        <div id="intro-gallery" class="relative w-full py-16" data-carousel="slide">
             <!-- Carousel wrapper -->
-            <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
+            <div class="relative h-dvh overflow-hidden rounded-lg md:h-96">
                 <!-- Item 1 -->
                 <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                    <img src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-1.jpg" class="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="">
+                    <img src="image/wallpaper/montreal.jpg" class="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="">
+                    <div class="absolute bottom-0 mb-6 text-center px-16 pb-6 ">
+                        <h5 class="text-white text-8xl font-semibold leading-7 mb-8">魁北克</h5>
+                        <h5 class="text-white text-4xl leading-7 mb-2">技术移民(QSW)、VJO</h5>
+                        <h5 class="text-white text-4xl leading-7 mb-2">经验类移民PEQ</h5>
+                        <h5 class="text-white text-4xl leading-7 mb-2">IT试点项目</h5>
+                    </div>
                 </div>
                 <!-- Item 2 -->
-                <div class="hidden duration-700 ease-in-out" data-carousel-item="active">
-                    <img src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-2.jpg" class="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="">
-                </div>
-                <!-- Item 3 -->
                 <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                    <img src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-3.jpg" class="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="">
-                </div>
-                <!-- Item 4 -->
-                <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                    <img src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-4.jpg" class="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="">
-                </div>
-                <!-- Item 5 -->
-                <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                    <img src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-5.jpg" class="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="">
+                    <img src="image/wallpaper/Novascotia.jpg" class="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="">
+                    <div class="absolute bottom-0 mb-6 text-center px-16 pb-6 ">
+                        <h5 class="text-white text-8xl font-semibold leading-7 mb-8">海洋四省</h5>
+                        <h5 class="text-white text-4xl leading-7 mb-2">技术移民(QSW)、VJO</h5>
+                        <h5 class="text-white text-4xl leading-7 mb-2">经验类移民PEQ</h5>
+                    </div>
                 </div>
             </div>
+
             <div class="flex justify-center items-center pt-4">
                 <button type="button" class="flex justify-center items-center me-4 h-full cursor-pointer group focus:outline-none" data-carousel-prev>
                     <span class="text-gray-400 hover:text-gray-900 dark:hover:text-white group-focus:text-gray-900 dark:group-focus:text-white">
@@ -52,34 +52,9 @@
             </div>
         </div>
 
-        <div class="py-8">
-            <h1 class = "pt-32 text-8xl">移民项目</h1>
-        </div>
-
-        <div id = 'programs-gallery' class="grid grid-cols-2 md:grid-cols-3 gap-4">
-            <div>
-                <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image.jpg" alt="">
-            </div>
-            <div>
-                <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-1.jpg" alt="">
-            </div>
-            <div>
-                <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-2.jpg" alt="">
-            </div>
-            <div>
-                <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-3.jpg" alt="">
-            </div>
-            <div>
-                <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-4.jpg" alt="">
-            </div>
-            <div>
-                <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-5.jpg" alt="">
-            </div>
-        </div>
-
         <div id = 'programs-gallery-2'>
             <div class="py-8">
-                <h1 class = "pt-32 text-8xl">项目介绍</h1>
+                <h1 class = " text-8xl">项目介绍</h1>
             </div>
         
             <p class = "text-2xl w-2/5 pb-16">扎根于加拿大的本地服务团队，加拿大移民局备案的机构和持牌移民顾问。了解中国客户的情况与需求，熟悉加拿大政策法规，为客户量身定制最适合的移民方案。 </p>
@@ -156,8 +131,8 @@
                     <div class="bg-gray-800 p-4 border rounded-md max-w-[300px]">
                         <img src="https://readymadeui.com/team-1.webp" class="w-full object-contain object-top rounded-md" />
                         <div class="text-center mt-4">
-                        <h4 class="text-base font-extrabold text-white">Software Engineer</h4>
-                        <p class="text-xs mt-1 text-white">John Doe</p>
+                        <h4 class="text-base font-extrabold text-white">CEO</h4>
+                        <p class="text-xs mt-1 text-white">Claus Zhang</p>
                     </div>
                 </div>
 
@@ -194,17 +169,18 @@
                             <h3 class="text-black text-xl font-semibold leading-8 md:text-start text-center">pagedone@gmail.com</h3>
                         </div>
                         <div>
-                            <h6 class="text-gray-500 text-sm font-medium leading-5 pb-3 md:text-start text-center">Phone Number</h6>
+                            <h6 class="text-gray-500 text-sm font-medium leading-5 pb-3 md:text-start text-center">联系电话</h6>
                             <h3 class="text-black text-xl font-semibold leading-8 md:text-start text-center">470-601-1911</h3>
                         </div>
                     </div>
                 </div>
                     <div class="h-96 relative flex justify-center">
                         <div class="w-full h-full absolute bg-gradient-to-t from-gray-800/50 to-gray-600/50"></div>
-                        <img src="https://pagedone.io/asset/uploads/1696246502.png" alt="United Kingdom image" class="w-full h-full object-cover">
+                        <img src="image/wallpaper/montreal_ring.jpeg" alt="United Kingdom image" class="w-full h-full object-cover">
                         <div class="absolute bottom-0 mb-6 text-center px-6">
-                            <h5 class="text-white text-lg font-semibold leading-7 mb-2">Canada</h5>
-                            <p class="text-white text-base font-medium leading-6">1200 Av.McGill College, Montreal, Quebec</p>
+                            <h5 class="text-white text-4xl font-semibold leading-7 mb-2">Canada</h5>
+                            <h5 class="text-white text-2xl leading-7">Montreal, Quebec</h5>
+                            <p class="text-white text-base text-2xl font-medium leading-6">11 floor, 1200 Av.McGill College</p>
                         </div>
                     </div>
             </div>
@@ -213,16 +189,6 @@
 
 
     </div>
-
-
-
-
-
-
-
-    <div class="" id = 'contact'></div>
-
-
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
 </body>
